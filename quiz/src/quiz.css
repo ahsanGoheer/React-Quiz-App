@@ -1,0 +1,50 @@
+
+.App>h1 {
+    font-size: 35px;
+    font-weight: normal;
+    color: brown;
+  }
+  
+  .question {
+    font-weight: lighter;
+    font-size: 27px;
+
+    font-family: Courier New;
+    color: mediumpurple;
+  }
+
+  .scoreWrapper {
+    background-color: indianred;
+    color: cornsilk;
+ text-align:center;
+    width:100% ;
+    position: absolute;
+    bottom:0%;
+
+}
+  .answerBtn {
+    border: none;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    width: 163px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: indianred;
+    color: whitesmoke;
+}
+.incorrect {
+    display: inline-block;
+    width: 50%;
+}
+.correct {
+    display: inline-block;
+    width: 50%;
+}
+
+
+.userGreeting {
+    color: green;
+    background: lemonchiffon;
+  }
